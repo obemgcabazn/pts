@@ -1,0 +1,42 @@
+# Для phpStorm
+.idea
+
+# Для Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.cache
+
+*.jp?g
+*.png
+*.gif
+*.svg
+*.pdf
+*.xls?
+*.ico
+*.psd
+*.jpg
+
+# Системные папки
+/backup/
+/img/
+images/
+/temp/
+/sp/
+/SSL/
+/docs/
+
+# Подключаемые библиотеки
+/assets/
+
+# Движок WP
+*.log
+
+PDF/
+/public/*
+/public/wp-content/*
+!/public/wp-content/
+/public/wp-content/themes/*
+!/public/wp-content/themes/
+/public/wp-content/themes/pts/*
+!/public/wp-content/themes/pts/
+!/public/wp-content/themes/pts/*
