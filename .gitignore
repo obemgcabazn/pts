@@ -18,12 +18,14 @@
 
 # Системные папки
 /backup/
+/teleport/
 /img/
 images/
 /temp/
 /sp/
 /SSL/
 /docs/
+/old files/
 
 # Подключаемые библиотеки
 /assets/
