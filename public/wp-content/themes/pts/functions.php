@@ -57,6 +57,25 @@ function print_top_menu() {
   return $header_menu;
 }
 
+// Вывод верхнего меню
+function print_footer_menu() {
+  $header_menu = wp_nav_menu( array(
+      'theme_location'  => 'footer_menu',
+      'container'       => 'nav',
+      'container_class' => 'navbar',
+      'container_id'    => '',
+      'menu'            => 'div',
+      'menu_class'      => 'nav',
+      'fallback_cb'     => 'wp_page_menu',
+      'items_wrap'      => '<ul id="%1$s" class="%2$s" role="navigation">%3$s</ul>',
+      'depth'           => 0,
+      'echo'            => 0
+  ) );
+  $header_menu = str_replace('class="menu-item', 'class="menu-item nav-item', $header_menu);
+  $header_menu = str_replace('<a href', '<a class="nav-link" href', $header_menu);
+  return $header_menu;
+}
+
 
 // Отключаем сам REST API
 add_filter('rest_enabled', '__return_false');

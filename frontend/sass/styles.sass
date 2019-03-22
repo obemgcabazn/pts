@@ -4,12 +4,23 @@ $text-font: 'Open Sans', sans-serif
 $header-font: 'Open Sans Condensed', sans-serif
 
 $blue: #064A87
+$light-grey: #F0F0F0
+
+h3, h5
+  font-family: $header-font
+
+div, p, a
+  font-family: $text-font
+
+a
+  text-decoration: underline
 
 header
-  padding-bottom: 50px
+  padding-bottom: 35px
 
-  .bg-blue
+  .top-line
     background: $blue
+    margin-bottom: 30px
 
   .nav-link
     color: lighten($blue, 60)
@@ -18,3 +29,45 @@ header
 
     &:hover
       text-decoration: underline
+
+  .time
+    padding-top: 17px
+    font-weight: bold
+    color: $blue
+
+  .phones, .emails 
+    a
+      display: block
+      margin-bottom: 5px
+      color: $blue
+      font-weight: bold
+      &:hover
+        text-decoration: none
+
+  .phones
+    margin-bottom: 15px
+
+aside
+  font-size: 14px
+
+main
+  font-size: 14px
+  background: $light-grey
+  padding: 20px
+  border-radius: 7px
+  border: 1px solid darken( $light-grey, 10 )
+
+footer
+  margin-top: 50px
+
+  .footer-menu-line
+    background: $blue
+    margin-bottom: 15px
+
+    .desc
+      color: white
+      font-size: 12px
+
+  #menu-footer a
+    text-transform: uppercase
+    color: white
