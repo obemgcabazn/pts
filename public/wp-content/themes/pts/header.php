@@ -25,7 +25,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="<?php bloginfo('template_url'); ?>/img/electropompa-logo.svg" alt="Технический центр насосов" width="350">
+          <a href="/" title="Технический центр насосов"><img src="<?php bloginfo('template_url'); ?>/img/electropompa-logo.svg" alt="Технический центр насосов" width="350"></a>
         </div>
         <div class="col-md-2">
           <p class="time text-center">
@@ -39,12 +39,12 @@
         </div>
         <div class="col-md-3 text-right">
           <div class="phones">
-            <a href="tel:+74956176942" title="Позвонить в сервисный центр">+7 (495) 617-69-42</a>
-            <a href="tel:+74955440557" title="Позвонить в сервисный центр">+7 (495) 544-05-57</a>
+            <a href="tel:+74956176942" title="Позвонить в сервисный центр" rel="nofollow">+7 (495) 617-69-42</a>
+            <a href="tel:+74955440557" title="Позвонить в сервисный центр" rel="nofollow">+7 (495) 544-05-57</a>
           </div>
           <div class="emails">
-            <a href="mailto:info@proftechservice.ru" title="info@proftechservice.ru">info@proftechservice.ru</a>
-            <a href="mailto:service@electropompa.ru" title="service@electropompa.ru">service@electropompa.ru</a>
+            <a href="mailto:info@proftechservice.ru" title="info@proftechservice.ru" rel="nofollow">info@proftechservice.ru</a>
+            <a href="mailto:service@electropompa.ru" title="service@electropompa.ru" rel="nofollow">service@electropompa.ru</a>
           </div>
         </div>
       </div>
